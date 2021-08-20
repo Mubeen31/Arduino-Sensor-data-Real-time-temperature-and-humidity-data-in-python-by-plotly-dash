@@ -256,7 +256,7 @@ def update_graph(n_intervals):
 
                          ),
 
-            yaxis = dict(range = [0, 70],
+            yaxis = dict(range = [min(get_humi) - 1, max(get_humi) + 1],
                          title = '<b>Humidity</b>',
                          color = 'black',
                          showline = True,
@@ -366,7 +366,7 @@ def update_graph(n_intervals):
 
                          ),
 
-            yaxis = dict(range = [0, 50],
+            yaxis = dict(range = [min(get_temp) - 0.1, max(get_temp) + 0.1],
                          title = '<b>Temperature</b>',
                          color = 'black',
                          showline = True,
