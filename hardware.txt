@@ -1,0 +1,6 @@
+Arduino UNO +  USB A to B cable
+DHT11 sensor
+Breadboard
+Jumper wires
+4K7 Resistor
+
