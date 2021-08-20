@@ -1,0 +1,140 @@
+body {
+    margin:0;
+    /*padding:0;*/
+    /*max-height:100vh;*/
+    overflow: hidden;
+    /*background-color: #e0e0e0;*/
+    /*  background-image: url("pexels-tom-fisk-8985371.jpg");*/
+    /*  margin: 3%;*/
+}
+
+.adjust_title {
+    white-space: pre;
+}
+
+.adjust_date_time {
+    /*margin-left: 500px;*/
+    margin-right: 10px;
+    position: static;
+    white-space: pre;
+}
+
+.adjust_title_and_date_time_two_columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*gap: 800px;*/
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.container_title_date_time {
+    background-color: blueviolet;
+    margin-bottom: 950px;
+    margin-top: -950px;
+}
+
+.temp_card1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*gap: 0px;*/
+    /* Internal div */
+    /*position: absolute;*/
+    /* Internal div */
+    /*margin-bottom: 950px;*/
+    /*margin-top: -950px;*/
+}
+
+.temp_card2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: static;
+    /*margin-bottom: 900px;*/
+    /*margin-top: -900px;*/
+    white-space: pre;
+    gap: 1px;
+    /*margin-left: 230px;*/
+    /*margin-bottom: -330px;*/
+    /* External div */
+    /*position: relative;*/
+    /* External div */
+    /*margin-bottom: 10px;*/
+    /*margin-top: 10px;*/
+}
+
+.image_grid {
+    white-space: pre;
+    /*height: 100px;*/
+    /*width: 400px;*/
+    /*background-color: #F2F2F2;*/
+    /*opacity: 0.5;*/
+    /*border-radius: 15px;*/
+    /*margin: 0 auto;*/
+    /*padding: 15px;*/
+    /*position: relative;*/
+    /*!*box-shadow: 4px 4px 4px 4px lightgrey;*!*/
+}
+
+.grid_height {
+    /*height: 155px;*/
+    width: 400px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative;
+    /*box-shadow: 4px 4px 4px 4px lightgrey;*/
+}
+.grid_two_column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 900px;
+    margin-top: -900px;
+}
+
+.adjust_grids {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-left: 20%;
+}
+
+.create_container3 {
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+    margin-bottom: 900px;
+    margin-top: -900px;
+  padding: 15px;
+  position: relative;
+  /*box-shadow: 4px 4px 4px 4px lightgrey;*/
+}
+
+.change_paragraph_value_temp {
+    margin-left: 80px;
+}
+
+.change_paragraph_value_humi {
+    margin-left: 82px;
+}
+
+/*.chart_width{*/
+/*  width: 500px;*/
+/*}*/
+
+/*.tabs_width{*/
+/*  width: 500px;*/
+/*}*/
+
+.container-display {
+  display: flex;
+}
+
+.flex-display {
+  display: flex;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
