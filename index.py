@@ -654,7 +654,7 @@ def update_graph(n_intervals):
     if get_temp >= 21:
         return [
             html.Div([
-                html.H6('Sunny',
+                html.H6('Sunny day',
                         style = {'line-height': '1',
                                  'color': '#00FF00'}
                         ),
@@ -665,7 +665,7 @@ def update_graph(n_intervals):
     elif get_temp < 21:
         return [
             html.Div([
-            html.H6('Cloudy',
+            html.H6('Cloudy day',
                     style = {'line-height': '1',
                              'color': '#00FF00'}
                     ),
